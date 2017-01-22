@@ -41,6 +41,6 @@ bower.json
 .sass-lint.yml
 *.css.map
 *.css.min.map
-.psd
+*.psd
 build/
 dist/
