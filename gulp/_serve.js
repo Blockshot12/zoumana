@@ -12,5 +12,5 @@ gulp.task('serve', ['build'], () => {
   gulp.watch(conf.paths.styles.src, ['styles-reload']);
   gulp.watch(conf.paths.scripts.src, ['scripts-reload']);
   gulp.watch(conf.paths.images.src, ['images-reload']);
-  gulp.watch(conf.paths.php.src, ['twigs-reload']);
+  gulp.watch(conf.paths.php.src, ['php-reload']);
 });

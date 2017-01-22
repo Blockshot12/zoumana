@@ -7,5 +7,5 @@ gulp.task('watch', ['build'], () => {
   gulp.watch(conf.paths.styles.src, ['build']);
   gulp.watch(conf.paths.scripts.src, ['build']);
   gulp.watch(conf.paths.images.src, ['build']);
-  gulp.watch(conf.paths.twigs.src, ['build']);
+  gulp.watch(conf.paths.php.src, ['build']);
 });
