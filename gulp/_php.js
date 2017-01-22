@@ -12,7 +12,7 @@ const $ = gulpLoadPlugins();
  * Update php files task.
  */
 let buildPhp = () => {
-  return gulp.src(conf.paths.twigs.src)
+  return gulp.src(conf.paths.php.src)
     .pipe($.notify({
       title: 'Php task completed',
       message: 'All php files are saved.',
