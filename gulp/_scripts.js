@@ -46,3 +46,12 @@ let buildScripts = () => {
       onLast: true
     }));
 };
+
+gulp.task('scripts', () => {
+  return buildScripts();
+});
+
+gulp.task('scripts-reload', () => {
+  return buildScripts()
+    .pipe(browserSync.stream());
+});

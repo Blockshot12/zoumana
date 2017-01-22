@@ -54,3 +54,13 @@ let buildStyles = () => {
       onLast: true
     }));
 };
+
+
+gulp.task('styles', () => {
+  return buildStyles();
+})
+
+gulp.task('styles-reload', () => {
+  return buildStyles()
+    .pipe(browserSync.stream());
+});
